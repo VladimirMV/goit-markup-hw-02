@@ -1,0 +1,69 @@
+/* Цвета страницы */
+/*Цвет основного текста #212121 -/* 
+/* Второстепенный #757575 */
+/* Белый #FFFFFF */
+/* Черный #000000 */
+/* Синий #2196F3 */
+:root{
+    --header-text-color:#212121;
+    --paragraf-text-color:#757575;
+    --accent-color:#2196F3;
+    --primery-background-color:#FFFFFF;
+}
+
+
+.page{
+    color: var(--header-text-color);
+    background-color: var(--primery-background-color);
+}
+.logo1{color: var(--accent-color);}
+.logoblack{color:#000000 ;}
+.logow{color: #FFFFFF;}
+.list {
+    list-style: none;
+}
+/* Навигация */
+.site-nav .link{
+color: var(--header-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: var(--accent-color);
+}
+.site-nav .link.carrent {
+color: var(--accent-color);   
+}   
+.adress{
+
+}
+.hiro{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: #2F303A;    
+}
+.hiro-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color:#FFFFFF;
+
+}
+
+.section-title{
+    color: var(--header-text-color);
+}
+.benefits-list{
+
+}
+.button{
+    background-color: var(--accent-color);
+    color: var(--primery-background-color);
+}
