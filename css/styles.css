@@ -136,3 +136,22 @@ letter-spacing: 0.03em;
     background-color:#2F303A;
   
 }
+/* вторая страница*/
+.works{
+    text-decoration: none;
+}
+.works .h{
+ color: var(--header-text-color);
+ font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;   
+}
+.works .page{
+color: var(--paragraf-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+
+}
