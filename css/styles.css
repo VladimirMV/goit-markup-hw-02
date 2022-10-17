@@ -57,14 +57,21 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.dress-footer{
+.adress .mail-h{
+    color: (var(--accent-color));
+    }
+.adress .tel-h{
+    color: (var(--paragraf-text-color));
+    text-decoration: none;
+}
+.adress-footer{
     font-family:Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 .hiro{
     width: 1600px;
@@ -125,8 +132,10 @@ letter-spacing: 0.03em;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 .footer{
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -134,7 +143,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     background-color:#2F303A;
-  
+    text-decoration: none; 
 }
 /* вторая страница*/
 .works{
@@ -145,7 +154,8 @@ letter-spacing: 0.03em;
  font-weight: 700;
 font-size: 18px;
 line-height: 2;
-letter-spacing: 0.06em;   
+letter-spacing: 0.06em; 
+text-decoration: none;  
 }
 .works .page{
 color: var(--paragraf-text-color);
@@ -153,5 +163,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
+text-decoration: none;
 
 }
