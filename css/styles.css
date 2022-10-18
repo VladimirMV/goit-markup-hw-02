@@ -85,6 +85,7 @@ color: var(--accent-color);
     color: #2196F3;
     text-decoration: underline;    
 }
+.ad-color{color: #FFFFFF;}
 .hiro{
     width: 1600px;
     height: 600px;
