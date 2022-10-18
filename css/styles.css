@@ -22,7 +22,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;}
   
@@ -50,28 +50,40 @@ color: var(--accent-color);
 .site-nav .link.carrent {
 color: var(--accent-color);   
 }   
-.adress{
+.contacts{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    color: (var(--paragraf-text-color))
 }
-.adress .mail-h{
-    color: (var(--accent-color));
-    }
-.adress .tel-h{
+.contacts .link{
     color: (var(--paragraf-text-color));
     text-decoration: none;
 }
+.contacts .link:hover,
+.contacts .link:focus
+{
+    color: #2196F3;
+    text-decoration: underline;
+     
+}
+
 .adress-footer{
     font-family:Roboto;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14x;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+}
+.adress-footer:hover,
+.adress-footer:focus
+{
+    color: #2196F3;
+    text-decoration: underline;    
 }
 .hiro{
     width: 1600px;
@@ -85,20 +97,28 @@ color: var(--accent-color);
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36x;
      text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
     color:#FFFFFF;
-
+}
+.button-hiro{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color:#FFFFFF;
 }
 
 .section-title{
     color: var(--header-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.67x;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -110,7 +130,7 @@ color: var(--accent-color);
 color: var(--header-text-color);
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 }
 .benefits-list .text{
@@ -122,18 +142,20 @@ letter-spacing: 0.03em;
 }
 
 
-.button{
-    background-color: var(--accent-color);
-    color: var(--primery-background-color);
-    font-family: inherit;
+.filter .button{
+    color: var(--header-text-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+.filter .button:hover,
+.filter .button:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;   
+}
+
 .footer{
     font-family: 'Roboto';
     font-style: normal;
@@ -143,19 +165,18 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     background-color:#2F303A;
-    text-decoration: none; 
-}
+   }
 /* вторая страница*/
 .works{
     text-decoration: none;
 }
 .works .h{
- color: var(--header-text-color);
- font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em; 
-text-decoration: none;  
+    color: var(--header-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em; 
+    text-decoration: none; 
 }
 .works .page{
 color: var(--paragraf-text-color);
@@ -164,5 +185,4 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 text-decoration: none;
-
 }
