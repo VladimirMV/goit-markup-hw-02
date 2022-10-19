@@ -10,15 +10,16 @@
     --accent-color:#2196F3;
     --primery-background-color:#FFFFFF;
 }
-
-
-.page{
+body {
     color: var(--header-text-color);
     background-color: var(--primery-background-color);
     font-family:Roboto,sans-serif;
     
 }
-.logo{font-family:'Raleway';
+a{
+        text-decoration: none;
+    }
+.logo{font-family:'Raleway',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -59,20 +60,22 @@ color: var(--accent-color);
     text-decoration: none;
     color: (var(--paragraf-text-color))
 }
-.contacts .link{
-    color: (var(--paragraf-text-color));
-    text-decoration: none;
-}
+
+ .contacts .link {
+     color: (var(--paragraf-text-color));
+ }
 .contacts .link:hover,
 .contacts .link:focus
 {
     color: var(--accent-color);
     text-decoration: underline;
      
+}.contacts .link.mail {
+    color: #2196F3;
 }
 
 .adress-footer{
-    font-family:Roboto;
+    font-family:Roboto,sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14x;
@@ -96,7 +99,7 @@ color: var(--accent-color);
 }
 /* герой */
 .hiro-title{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -126,9 +129,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
 
 }
-.benefits-list{
 
-}
 .benefits-list .title{
 color: var(--header-text-color);
 font-weight: 700;
@@ -160,7 +161,7 @@ letter-spacing: 0.03em;
 }
 
 .footer{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
