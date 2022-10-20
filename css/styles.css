@@ -58,36 +58,27 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: (var(--paragraf-text-color))
 }
-
  .contacts .link {
-     color: (var(--paragraf-text-color));
+    color: var(--paragraf-text-color);
  }
 .contacts .link:hover,
 .contacts .link:focus
 {
     color: var(--accent-color);
-    text-decoration: underline;
-     
-}.contacts .link.mail {
-    color: #2196F3;
-}
-
+}    
 .adress-footer{
     font-family:Roboto,sans-serif;
-    font-weight: 500;
     font-size: 14px;
-    line-height: 1.14x;
-    letter-spacing: 0.02em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 .adress-footer:hover,
 .adress-footer:focus
 {
-    color: #2196F3;
-    text-decoration: underline;    
+    color: var(--accent-color);    
 }
 .ad-color{color: #FFFFFF;}
 .hiro{
@@ -122,7 +113,6 @@ color: var(--accent-color);
 
 .section-title{
     color: var(--header-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.67x;
     text-align: center;
@@ -132,13 +122,11 @@ color: var(--accent-color);
 
 .benefits-list .title{
 color: var(--header-text-color);
-font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 }
 .benefits-list .text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -163,7 +151,6 @@ letter-spacing: 0.03em;
 .footer{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -176,7 +163,6 @@ letter-spacing: 0.03em;
 }
 .works .h{
     color: var(--header-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em; 
@@ -184,7 +170,6 @@ letter-spacing: 0.03em;
 }
 .works .page{
 color: var(--paragraf-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
